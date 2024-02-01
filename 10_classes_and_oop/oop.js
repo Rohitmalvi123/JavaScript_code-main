@@ -16,7 +16,7 @@ const user = {
 // console.log(user.getUserDetails());
 // console.log(this);
 
-// constructer function
+//+++++++++++ constructer function +++++++++++++++
 
 // const promiseOne = new promise();
 // const date = new Date();
