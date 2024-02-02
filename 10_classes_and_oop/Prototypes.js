@@ -31,29 +31,29 @@ Array.prototype.heyRohit = function () {
 
 //+++++++++++ inheritance +++++++++++++++
 
-const user = {
-  name: "chai",
-  Email: "chaiaurcode@gmail.com",
-};
-const Teacher = {
-  makeVideo: true,
-};
+// const user = {
+//   name: "chai",
+//   Email: "chaiaurcode@gmail.com",
+// };
+// const Teacher = {
+//   makeVideo: true,
+// };
 
-const TeachingSupport = {
-  isAvailable: false,
-};
+// const TeachingSupport = {
+//   isAvailable: false,
+// };
 
-const TASupport = {
-  makeAssingment: "JS assignment",
-  fullTime: true,
-  __proto__: TeachingSupport,
-};
+// const TASupport = {
+//   makeAssingment: "JS assignment",
+//   fullTime: true,
+//   __proto__: TeachingSupport,
+// };
 
-Teacher.__proto__ = user;
+// Teacher.__proto__ = user;
 
 // modern syntax
 
-Object.setPrototypeOf(TeachingSupport, Teacher);
+// Object.setPrototypeOf(TeachingSupport, Teacher);
 
 let anotherUsername = "chaiAurCode";
 
@@ -63,6 +63,6 @@ String.prototype.trueLength = function () {
   console.log(`True length is: ${this.trim().length}`);
 };
 
-anotherUsername.trueLength();
-"rohit".trueLength();
-"icetea".trueLength();
+// anotherUsername.trueLength();
+// "rohit".trueLength();
+// "icetea".trueLength();
