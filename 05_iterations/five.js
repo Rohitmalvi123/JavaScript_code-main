@@ -1,4 +1,6 @@
-const coding = ["js", "java", "ruby", "python", "cpp"]
+// foreach
+
+const coding = ["js", "java", "ruby", "python", "cpp"];
 
 // coding.forEach(function (val){
 //     console.log(val);
@@ -19,20 +21,20 @@ const coding = ["js", "java", "ruby", "python", "cpp"]
 // })
 
 const myCoding = [
-    {
-        languageName: "javascript",
-        languageFileName: "js"
-    },
-    {
-        languageName: "java",
-        languageFileName: "java"
-    },
-    {
-        languageName: "python",
-        languageFileName: "py"
-    },
-]
+  {
+    languageName: "javascript",
+    languageFileName: "js",
+  },
+  {
+    languageName: "java",
+    languageFileName: "java",
+  },
+  {
+    languageName: "python",
+    languageFileName: "py",
+  },
+];
 
-myCoding.forEach( (item) => {
-    console.log(item.languageName);
-})
+myCoding.forEach((item) => {
+  console.log(item.languageName);
+});
