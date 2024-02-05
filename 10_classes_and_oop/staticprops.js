@@ -24,4 +24,4 @@ class Teacher extends User {
 
 const iphone = new Teacher("iphone", "i@phone.com");
 iphone.logeMe();
-console.log(iphone.creatId());
+console.log(iphone.creatId()); // iphone.creatId is not a function
